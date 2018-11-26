@@ -1,0 +1,12 @@
+{
+  "id": "appetite",
+  "name": "Appetite",
+  "version": "0.1.0",
+  "side": "universal",
+  "initializer": "prospector.appetite.Appetite",
+  "description": "Adds foods to sate any appetite!",
+  "mixins": {
+    "client": "appetite.client.json",
+    "common": "appetite.common.json"
+  }
+}
