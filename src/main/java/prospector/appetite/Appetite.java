@@ -2,9 +2,9 @@ package prospector.appetite;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.block.Block;
-import net.minecraft.gui.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.item.block.ItemBlock;
+import net.minecraft.item.block.BlockItem;
+import net.minecraft.sortme.ItemGroup;
 import net.minecraft.util.registry.Registry;
 import prospector.appetite.block.BlockBerryBush;
 
@@ -23,7 +23,7 @@ public class Appetite implements ModInitializer {
 
 	private static Block register(String name, Block block, ItemGroup tab) {
 		Registry.register(Registry.BLOCKS, MOD_ID + ":" + name, block);
-		ItemBlock item = new ItemBlock(block, new Item.Builder().creativeTab(tab));
+		BlockItem item = new BlockItem(block, new Item.Builder().creativeTab(tab));
 		item.registerBlockItemMap(Item.BLOCK_ITEM_MAP, item);
 		register(name, item);
 		return block;
