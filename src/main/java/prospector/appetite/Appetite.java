@@ -23,7 +23,7 @@ public class Appetite implements ModInitializer {
 
 	private static Block register(String name, Block block, ItemGroup tab) {
 		Registry.register(Registry.BLOCKS, MOD_ID + ":" + name, block);
-		BlockItem item = new BlockItem(block, new Item.Builder().creativeTab(tab));
+		BlockItem item = new BlockItem(block, new Item.Builder().itemGroup(tab));
 		item.registerBlockItemMap(Item.BLOCK_ITEM_MAP, item);
 		register(name, item);
 		return block;
