@@ -3,10 +3,14 @@
   "name": "Appetite",
   "version": "0.1.0",
   "side": "universal",
-  "initializer": "prospector.appetite.Appetite",
+  "initializers": [
+	"prospector.appetite.registry.AppetiteBlocks",
+	"prospector.appetite.registry.AppetiteBlockEntities",
+	"prospector.appetite.registry.AppetiteItems"
+  ],
   "description": "Adds foods to sate any appetite!",
   "mixins": {
-    "client": "appetite.client.json",
-    "common": "appetite.common.json"
+	"client": "appetite.client.json",
+	"common": "appetite.common.json"
   }
 }
