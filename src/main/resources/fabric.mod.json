@@ -1,0 +1,13 @@
+{
+  "id": "appetite",
+  "name": "Appetite",
+  "version": "0.1.0",
+  "side": "universal",
+  "initializers": [
+	"io.github.prospector.appetite.registry.AppetiteBlocks",
+	"io.github.prospector.appetite.registry.AppetiteBlockEntities",
+	"io.github.prospector.appetite.registry.AppetiteItems"
+  ],
+  "description": "Adds foods to sate any appetite!",
+  "mixins": { }
+}

@@ -1,4 +1,4 @@
-package prospector.appetite.block;
+package io.github.prospector.appetite.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -13,8 +13,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Facing;
 import net.minecraft.world.World;
-import prospector.appetite.Appetite;
-import prospector.appetite.container.CounterContainer;
+import io.github.prospector.appetite.Appetite;
+import io.github.prospector.appetite.container.CounterContainer;
 import teamreborn.assembly.container.AssemblyContainerHelper;
 import teamreborn.assembly.container.FabricContainerProvider;
 

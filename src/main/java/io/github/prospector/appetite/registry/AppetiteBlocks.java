@@ -1,5 +1,6 @@
-package prospector.appetite.registry;
+package io.github.prospector.appetite.registry;
 
+import io.github.prospector.appetite.block.CounterBlock;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -9,8 +10,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.block.BlockItem;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.registry.Registry;
-import prospector.appetite.Appetite;
-import prospector.appetite.block.CounterBlock;
+import io.github.prospector.appetite.Appetite;
 
 public class AppetiteBlocks implements ModInitializer {
 	public static final Block COUNTER = register("counter", new CounterBlock(FabricBlockSettings.create(Material.WOOD).setHardness(2.5F).setSoundGroup(BlockSoundGroup.WOOD).build()), ItemGroup.DECORATIONS);

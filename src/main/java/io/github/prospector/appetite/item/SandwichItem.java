@@ -1,4 +1,4 @@
-package prospector.appetite.item;
+package io.github.prospector.appetite.item;
 
 import net.minecraft.item.FoodItem;
 

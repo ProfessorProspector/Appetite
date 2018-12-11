@@ -1,9 +1,9 @@
-package prospector.appetite.registry;
+package io.github.prospector.appetite.registry;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.item.Item;
 import net.minecraft.util.registry.Registry;
-import prospector.appetite.Appetite;
+import io.github.prospector.appetite.Appetite;
 
 public class AppetiteItems implements ModInitializer {
 

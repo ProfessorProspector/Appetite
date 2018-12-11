@@ -1,7 +1,8 @@
-package prospector.appetite.client.gui;
+package io.github.prospector.appetite.client.gui;
 
 import com.google.common.collect.Lists;
 import com.mojang.blaze3d.platform.GlStateManager;
+import io.github.prospector.appetite.container.CounterContainer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.block.entity.BannerBlockEntity;
@@ -23,7 +24,6 @@ import net.minecraft.sound.Sounds;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
-import prospector.appetite.container.CounterContainer;
 
 import java.util.ArrayList;
 

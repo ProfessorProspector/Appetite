@@ -1,4 +1,4 @@
-package prospector.appetite.container;
+package io.github.prospector.appetite.container;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

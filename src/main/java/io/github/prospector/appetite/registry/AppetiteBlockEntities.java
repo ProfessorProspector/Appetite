@@ -1,11 +1,11 @@
-package prospector.appetite.registry;
+package io.github.prospector.appetite.registry;
 
+import io.github.prospector.appetite.Appetite;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.util.registry.Registry;
-import prospector.appetite.Appetite;
-import prospector.appetite.blockentity.CounterBlockEntity;
+import io.github.prospector.appetite.blockentity.CounterBlockEntity;
 
 public class AppetiteBlockEntities implements ModInitializer {
 	public static final BlockEntityType<CounterBlockEntity> COUNTER = register("counter", BlockEntityType.Builder.create(CounterBlockEntity::new));
