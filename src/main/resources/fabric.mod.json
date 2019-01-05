@@ -1,7 +1,7 @@
 {
   "id": "appetite",
   "name": "Appetite",
-  "version": "0.1.0",
+  "version": "$version",
   "side": "universal",
   "initializers": [
 	"io.github.prospector.appetite.registry.AppetiteBlocks",
